@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "named-trilogy-432517-e5",
+  "private_key_id": "138427304bb79426f116bbb2f869c09cab81fd93",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCjG9bXCHJG96l1\nr2BmEdu9StQH/Igkt5L068MX9F3o1V3o5WKC6/UqATffFoEiS7kJff5PsM4/3CbF\notvL6udwyptB7DrM73ZqjPEjTdBa7I2wrBcFwhxkPQVPHAiIxZkW05WeSHdjCIx9\nlhQ9s4907wv1I8EFQa2y+cUQ7TvOX0PJkXtjMmJLlWfcV23SDbo2oDFDqQH6EY46\nopjYKc9DchuQ8gU26HVJ0TnjW8axHo0UsIxARKf7YyM3OAqwhHJbZWn3iYQOj0m7\ncQtJ3+NVHcl4agNO5k+fEvxleK48FRwTIjLrGHn1HGtgREzY/+ELgcLqBDWvba2L\njOKBNd1zAgMBAAECggEAOfTvbvMCYDMqVLXfZAVedjF7i+bwnVNZdYu8g+uB3vTJ\n7LJtQaYENEvAhZWihwQvGK9bSQfDEa/xWvKWdSvf1xU2+8Kr1hwUkKHKIUhKC7TY\nV/meKJ6jpf6Ev2pvoeHMlu7R0C9htJ/aA9nrEU2XYO576jwtHugKh3j2zB/vy1E+\n5q8tyv9fTgwLtNTM97Gpl+nDdwnJ50fxTzNFXFHwgtMWONBkFkLJzmVkuCO/PFlq\nlYSpkHL7291lvPhCTacPEOp3RW/e3LnenD83FWLr9UpbG2Isju1fBPurCv4/c28B\nuZ2Kxj3JBo8qhAyWPVz9vmLqAeiYbdOZv0D8MYQmMQKBgQDaI6/b+NDmstao3RoQ\nM0HPJV8x29DKJ/yQ7EEz1RVrERp44xr12nlAvSJA/LWK4B/5d3NSVKzW4g3eeg8Q\nCJOvwIKIwlYeXH7wamgq2Gj5MWsH+jyfsWYBOXs6mhMW8Ma/M4QMrZGkhC6mYyAI\n8rG5zmrjRzYD8tagfSvsWnDA2wKBgQC/awtnIM0U3CyEN6mbh2VetcwMGBMhrfAW\n8N2L2D8ikcpLbTnYtNfyw4xzwXncWZFISgR6Z8+SOuz4Bh9S9HBGKWAAv6BWTzcm\nwdxDMGU2MD/F4c5dMa4a0AWfk4PRTE/88ILv0KpRKp0iE88CZC/BeEqz1Gwhdkbe\n8OilejdNSQKBgAfNTvTnKVGXA+Z2QgBiVPA7vfPikM0qMPZd/NcFwAZcTj4UoVo5\nvix6l0cLwtJ8wagChbVkIeptm2FhrDg+lkmq8QBDMyFS3Zdrtt4Rb2+6PMHESXbM\nuYFBtQ6bhCNF6VXdWdO6QYNI1wJMeVDYnVKv91K5sUzi2ppS38dMVMwRAoGAEDjQ\nJJNBDg2CsEnPU+DrlFUvz66SoH4PJMKQ4/MVlqZoUHAXQOhCjM5Jrt2sqCHnEAtF\nyeHWU3wu7O4H5Y3VnfyPqECVI/tenyg6tG77hNYd8XUrefZl3NvYPifQOgKPnM39\nKrmyVWKZInQvTPKUoX7CRe8wor1VUDt2W9+5pBECgYEApiMS1L2NRMlwjX23VHu0\nRE6n85fidjwg+WH1w+4B5I5CQqtaxICX3ghYTghTsLD75fVlkGtMTUTGpRRsOxVg\nHt4UCO/AMeElNsYOkSSQHkotCe/ctGcVCWUuoUvo2v05htrSujGjCa8OG2zlcA5g\nikhxnwQYBV6vIStCqDuoQfI=\n-----END PRIVATE KEY-----\n",
+  "client_email": "speechtotext@named-trilogy-432517-e5.iam.gserviceaccount.com",
+  "client_id": "114952489803596232784",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/speechtotext%40named-trilogy-432517-e5.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
