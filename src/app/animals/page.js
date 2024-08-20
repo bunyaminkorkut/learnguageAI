@@ -11,7 +11,7 @@ export default function Page() {
       sentences: [
         "The bear is big and fluffy",
         "The bear loves eating sweet honey",
-        "The sleepy bear takes long naps in its cozy den"
+        "The sleepy bear takes long naps"
       ],
       images: [
         "https://upload.wikimedia.org/wikipedia/commons/9/9e/Ours_brun_parcanimalierpyrenees_1.jpg",

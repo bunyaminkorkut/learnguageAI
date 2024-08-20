@@ -29,10 +29,10 @@ const Microphone = ({ chatMessages, setChatMessages, disabled=false }) => {
       return { role: message.role, parts: [{ text: message.parts?.[0]?.text }] }
     });
     geminiAPI(history, text)
-      .then((response) => { return response.json() })
       .then((result) => {
         textToSpeech(result).then((res) => {
-          setChatMessages([...chatMessages, { role: "user", parts: [{ text: text }] }, { role: "model", parts: [{ text: result }], audio: Buffer.from(res.response.audioContent.data) }]);
+          console.log(res);
+          setChatMessages([...chatMessages, { role: "user", parts: [{ text: text }] }, { role: "model", parts: [{ text: result }], audio: Buffer.from(res) }]);
         });
       }
       ).finally(() => {

@@ -55,14 +55,14 @@ export const Quiz = ({ data, type }) => {
 
   useEffect(() => {
     textToSpeech(data?.[order].sentences?.[0]).then((res) => {
-      setAudio1(Buffer.from(res.response.audioContent.data));
+      setAudio1(Buffer.from(res));
     }).then(() => {
       textToSpeech(data?.[order].sentences?.[1]).then((res) => {
-        setAudio2(Buffer.from(res.response.audioContent.data));
+        setAudio2(Buffer.from(res));
       })
     }).then(() => {
       textToSpeech(data?.[order].sentences?.[2]).then((res) => {
-        setAudio3(Buffer.from(res.response.audioContent.data));
+        setAudio3(Buffer.from(res));
       })
     }
     )

@@ -3,7 +3,7 @@ import { useEffect, useRef, useState } from "react";
 import { faVolumeHigh } from '@fortawesome/free-solid-svg-icons'
 import { faCircleStop } from '@fortawesome/free-solid-svg-icons'
 
-export function Play({ audioBuffer, autoPlayOff }) {
+export function Play({ audioBuffer, autoPlayOff}) {
   const [audioUrl, setAudioUrl] = useState(null);
   const myRef = useRef();
   const [audioStatus, changeAudioStatus] = useState(false);
