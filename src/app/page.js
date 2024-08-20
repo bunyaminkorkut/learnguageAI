@@ -1,22 +1,16 @@
 "use client"
-import { Button } from '@/components/button';
 import { Chat } from '@/components/chat';
-import { Microphone } from '@/components/microphone';
 import { Navbar } from '@/components/navbar';
-import { useRouter } from 'next/navigation';
-import RainbowText from 'react-rainbow-text';
+import { ColorfulText } from '@/utils/service';
 
 
 export default function Page() {
-  const router = useRouter();
   return (
     <main className="flex min-h-screen flex-col items-center py-12 container mx-auto">
       <h1
         className={"font-matemasie text-6xl text-shadow mb-7"}
       >
-        <RainbowText lightness={0.5} saturation={1}>
-          LearnguageAI
-        </RainbowText>
+       {ColorfulText("LearnguageAI")}
       </h1>
       <div className='text-center'>
         <p className='text-xl font-medium text-violet-600'>
@@ -29,8 +23,8 @@ export default function Page() {
           </p>
         </div>
       </div>
-     <Navbar/>
-      <Chat/>
+      <Navbar />
+      <Chat />
     </main>
   );
 }

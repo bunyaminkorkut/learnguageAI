@@ -1,14 +1,10 @@
 "use client";
-import { useRouter } from "next/navigation";
-import { Button } from '@/components/button';
-import { Chat } from '@/components/chat';
-import RainbowText from 'react-rainbow-text';
+// import RainbowText from 'react-rainbow-text';
 import { Quiz } from "@/components/quiz";
 import { Navbar } from "@/components/navbar";
+import { ColorfulText } from "@/utils/service";
 
 export default function Page() {
-  const router = useRouter();
-
   const data = [
     {
       name: "backpack",
@@ -61,7 +57,7 @@ export default function Page() {
         "The green marker is my favorite color",
         "This thick marker makes everything stand out"
       ],
-      images:[
+      images: [
         "https://cdnsta.avansas.com/mnresize/300/-/urun/54524/bic-marker-2300-kesik-uc-mavi-zoom-3.jpg"
       ]
     },
@@ -83,7 +79,7 @@ export default function Page() {
         "The ruler is long enough to measure anything",
         "My ruler is always straight and sturdy"
       ],
-      images:[
+      images: [
         "https://m.media-amazon.com/images/I/61RdH9Lg4wL._SL1500_.jpg"
       ]
     },
@@ -94,7 +90,7 @@ export default function Page() {
         "The scissors are sharp, so I cut carefully",
         "The shiny silver scissors are perfect for crafting"
       ],
-      images:[
+      images: [
         "https://assets.katogroup.eu/i/katogroup/VT8-0919-24_02_victorinox"
       ]
     }
@@ -107,9 +103,7 @@ export default function Page() {
       <h1
         className={"font-matemasie text-6xl text-shadow mb-7"}
       >
-        <RainbowText lightness={0.5} saturation={1}>
-          LearnguageAI
-        </RainbowText>
+        {ColorfulText("LearnguageAI")}
       </h1>
       <div className='text-center'>
         <p className='text-xl font-medium text-violet-600'>
@@ -119,7 +113,7 @@ export default function Page() {
       <Navbar />
       <div className='border rounded-lg p-2 mt-4 border-rose-800 text-white bg-gray-400 max-w-[600px]'>
         <h2 className="text-lg font-bold">Let's learn
-          SCHOOL!
+          SCHOOL ITEMS!
         </h2>
       </div>
       <div className="mt-10 w-full">

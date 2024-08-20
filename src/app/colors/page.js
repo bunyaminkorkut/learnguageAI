@@ -1,13 +1,10 @@
 "use client";
-import { useRouter } from "next/navigation";
-import { Button } from '@/components/button';
-import { Chat } from '@/components/chat';
-import RainbowText from 'react-rainbow-text';
+// import RainbowText from 'react-rainbow-text';
 import { Quiz } from "@/components/quiz";
 import { Navbar } from "@/components/navbar";
+import { ColorfulText } from "@/utils/service";
 
 export default function Page() {
-  const router = useRouter();
 
   const data = [
     {
@@ -96,9 +93,7 @@ export default function Page() {
       <h1
         className={"font-matemasie text-6xl text-shadow mb-7"}
       >
-        <RainbowText lightness={0.5} saturation={1}>
-          LearnguageAI
-        </RainbowText>
+        {ColorfulText("LearnguageAI")}
       </h1>
       <div className='text-center'>
         <p className='text-xl font-medium text-violet-600'>
@@ -109,9 +104,7 @@ export default function Page() {
       <div className='border rounded-lg p-2 mt-4 border-rose-800 text-white bg-gray-400 max-w-[600px]'>
         <h2 className="text-lg font-bold">Let's learn
           <span>
-            <RainbowText>
-              {` COLORS!`}
-            </RainbowText>
+            {ColorfulText(" COLORS!")}
           </span>
         </h2>
       </div>
