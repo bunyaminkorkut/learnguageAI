@@ -2,16 +2,21 @@
 import { Chat } from '@/components/chat';
 import { Navbar } from '@/components/navbar';
 import { ColorfulText } from '@/utils/service';
+import { useRouter } from 'next/navigation';
 
 
 export default function Page() {
+  const router = useRouter();
   return (
     <main className="flex min-h-screen flex-col items-center py-12 container mx-auto">
-      <h1
-        className={"font-matemasie text-6xl text-shadow mb-7"}
-      >
-       {ColorfulText("LearnguageAI")}
-      </h1>
+      <div className=' mb-5'>
+        <h1
+          className={"font-matemasie text-6xl text-shadow"}
+        >
+          {ColorfulText("LearnguageAI")}
+        </h1>
+        <p className='text-sm font-sans text-end cursor-pointer mt-4' onClick={() => { router.push("https://github.com/bunyaminkorkut") }}> by Bunyamin Korkut</p>
+      </div>
       <div className='text-center'>
         <p className='text-xl font-medium text-violet-600'>
           Let's learn a new language with AI!
