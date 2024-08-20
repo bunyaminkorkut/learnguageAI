@@ -1,36 +1,27 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Inspiration
 
-## Getting Started
+I am a student living in Turkey, and one of the biggest challenges in schools here is the difficulty of learning a foreign language. The lack of sufficient speaking practice in schools makes it difficult for students to become proficient in a new language. For this reason, I came up with the idea of developing an application that helps children who are just beginning to learn English practice their speaking skills.
 
-First, run the development server:
+## What does it do?
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+LearnguageAI helps children practice speaking English using artificial intelligence. The AI responds just like a human, providing answers both in written and spoken form. The app also includes speaking practice activities that help children learn new words on specific topics such as colors, food, animals, and more.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## How I built this
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+I developed LearnguageAI as a web application using [Next.js 14](https://nextjs.org/). For styling, I used [Tailwind CSS](https://tailwindcss.com/). The project leverages Google API services for converting speech to text and text to speech. For AI-generated responses, I used Google's Gemini API service.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Challenges I faced
 
-## Learn More
+Integrating Google services into my project was a bit challenging. Handling audio data in various formats required learning how to perform necessary conversions, which I eventually managed to implement effectively.
 
-To learn more about Next.js, take a look at the following resources:
+## Achievements I am proud of
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+I am particularly proud of successfully handling the process of detecting speech, sending it to the AI for processing, and then generating a voice response from the AI.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## What I learned
 
-## Deploy on Vercel
+I gained experience in using AI APIs and became more proficient in working with Google Cloud services. My research during this process was extremely beneficial. While I considered using OpenAI’s services, I opted for Google’s solutions due to their free offerings.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## What's next for LearnguageAI?
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Currently, LearnguageAI only supports English. In the future, it can be expanded to include additional language options. I also plan to add more content for vocabulary learning. Since I developed a small prototype in a short time, I acknowledge that the content is somewhat limited for now.
