@@ -9,7 +9,7 @@ export const Chat = () => {
 
   return (
     <>
-      <div className=' bg-gray-200 mt-10 rounded-lg w-full border border-gray-300'>
+      <div className=' bg-gray-200 mt-10 rounded-lg w-full border border-gray-300 overflow-scroll pb-5'>
         <div className='border-b border-gray-300 p-2 text-center'>
           Let's talk with AI! 🤖
         </div>
